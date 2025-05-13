@@ -1,0 +1,82 @@
+.wrapper {
+  padding-top: 36px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-datetime {
+  width: 272px;
+  height: 40px;
+}
+
+.input-datetime:hover {
+  border-radius: 4px;
+}
+
+.input-datetime:active {
+  border-color: #4e75ff;
+}
+
+.input-datetime:disabled {
+  background-color: #fafafa;
+}
+
+.btn-date {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background-color: #4e75ff;
+  padding: 8px 16px;
+  border: none;
+}
+
+.btn-date:hover {
+  border-color: #7dafff;
+  box-shadow: 0 0 4px rgba(77, 166, 255, 0.4);
+}
+
+.btn-date:disabled {
+  background-color: #cfcfcf;
+}
+
+.timer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 32px;
+  justify-content: center;
+}
+
+.field {
+  text-align: center;
+}
+
+.value {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400px;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: block;
+}
+
+.label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
+  display: block;
+}

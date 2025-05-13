@@ -1,0 +1,91 @@
+.form {
+  padding: 30px;
+}
+
+.label-number {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  gap: 8px;
+  /* margin-bottom: 16px; */
+}
+
+.input-number {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.input-number:hover {
+  border-color: #7dafff;
+  box-shadow: 0 0 4px rgba(77, 166, 255, 0.4);
+}
+
+.input-number:focus {
+  border-color: #2e2f42;
+}
+
+.fieldset {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease;
+
+  width: 340px;
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.label-radio {
+  padding: 12px 24px 4px;
+  display: flex;
+  gap: 48px;
+  margin: 0 auto;
+}
+
+.input-radio {
+}
+
+.fieldset:hover {
+  border-color: #7dafff;
+  box-shadow: 0 0 4px rgba(77, 166, 255, 0.3);
+}
+
+.input-radio:focus {
+  outline: 2px solid #4da6ff;
+}
+
+/* === Кнопка === */
+.btn-submit {
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+}
+
+.btn-submit:hover {
+  background-color: #3399ff;
+}
+
+.btn-submit:active {
+  background-color: #1e88e5;
+}
