@@ -78,7 +78,6 @@ startBtn.addEventListener('click', () => {
     if (diff < 1000) {
       clearInterval(intervalId);
       updateClock({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-      ї;
 
       dateInput.disabled = false;
       return;
